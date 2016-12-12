@@ -1185,7 +1185,7 @@ class ControllerCheckoutPaymentAddress extends Controller {
 
 ## view/theme/default/template/checkout/payment_address.tpl
 
-```php
+```tpl
 <form class="form-horizontal">
   <?php if ($addresses) { ?>
   <div class="radio">
@@ -1535,6 +1535,7 @@ $('#collapse-payment-address select[name=\'country_id\']').on('change', function
 
 $('#collapse-payment-address select[name=\'country_id\']').trigger('change');
 //--></script>
+
 ```
 
 ## controller/checkout/payment_method.php
@@ -1736,7 +1737,7 @@ class ControllerCheckoutPaymentMethod extends Controller {
 
 ## view/theme/default/template/checkout/payment_address.tpl
 
-```php
+```tpl
 <form class="form-horizontal">
   <?php if ($addresses) { ?>
   <div class="radio">
@@ -2086,6 +2087,7 @@ $('#collapse-payment-address select[name=\'country_id\']').on('change', function
 
 $('#collapse-payment-address select[name=\'country_id\']').trigger('change');
 //--></script>
+
 ```
 
 
@@ -2299,7 +2301,7 @@ class ControllerCheckoutShippingAddress extends Controller {
 
 ## view/theme/default/template/checkout/shipping_address.tpl
 
-```php
+```tpl
 <form class="form-horizontal">
   <?php if ($addresses) { ?>
   <div class="radio">
@@ -2648,6 +2650,7 @@ $('#collapse-shipping-address select[name=\'country_id\']').on('change', functio
 
 $('#collapse-shipping-address select[name=\'country_id\']').trigger('change');
 //--></script>
+
 ```
 
 ## controller/checkout/shipping_method.php

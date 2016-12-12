@@ -19,7 +19,7 @@ The use case is triggered when the "product detail" extension point is reached
 
 ## view/theme/default/template/product/product.tpl
 
-```php
+```tpl
 <?php echo $header; ?>
 <div class="container">
   <ul class="breadcrumb">
@@ -454,6 +454,15 @@ $('#button-review').on('click', function() {
 				$('textarea[name=\'text\']').val('');
 				$('input[name=\'rating\']:checked').prop('checked', false);
 			}
+		}
+	});
+});
+$(document).ready(function() {
+	$('.thumbnails').magnificPopup({
+		type:'image',
+		delegate: 'a',
+		gallery: {
+			enabled:true
 		}
 	});
 });

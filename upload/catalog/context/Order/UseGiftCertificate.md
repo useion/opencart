@@ -335,7 +335,7 @@ class ModelCheckoutOrder extends Model {
 
 ## view/theme/default/template/extension/total/voucher.tpl
 
-```php
+```tpl
 <div class="panel panel-default">
   <div class="panel-heading">
     <h4 class="panel-title"><a href="#collapse-voucher" data-toggle="collapse" data-parent="#accordion" class="accordion-toggle"><?php echo $heading_title; ?> <i class="fa fa-caret-down"></i></a></h4>
@@ -380,6 +380,7 @@ $('#button-voucher').on('click', function() {
     </div>
   </div>
 </div>
+
 ```
 
 ## view/theme/default/template/mail/voucher.tpl

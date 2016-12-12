@@ -940,7 +940,7 @@ class ModelCheckoutOrder extends Model {
 
 		return $order_id;
 	}
-
+}
 ```
 
 ## model/extension/total/voucher.php

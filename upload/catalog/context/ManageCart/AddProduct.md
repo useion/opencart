@@ -476,9 +476,10 @@ $('#button-cart').on('click', function() {
 
 ## view/javascript/common.js
 
-```javascript
+```js
 
 // Cart add remove functions
+
 var cart = {
 	'add': function(product_id, quantity) {
 		$.ajax({
