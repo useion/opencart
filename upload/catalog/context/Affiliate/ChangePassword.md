@@ -1,4 +1,4 @@
-# Use case - Affiliate Change Password
+# Use case Affiliate - Change Password
 
 ## Actors
 

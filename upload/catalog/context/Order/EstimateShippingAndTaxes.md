@@ -1,4 +1,4 @@
-# Use case Estimate Shipping And Taxes
+# Use case Estimate Shipping and Taxes
 
 ## Actors
 
