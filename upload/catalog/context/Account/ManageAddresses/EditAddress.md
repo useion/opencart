@@ -538,7 +538,7 @@ class ModelAccountActivity extends Model {
 }
 ```
 
-## model/localization/country.php
+## model/localisation/country.php
 
 ```php
 <?php

@@ -17,7 +17,7 @@ The use case is triggered when the "showing cart" extension point is reached
 
 # Code
 
-## controller/extention/total/voucher.php
+## controller/extension/total/voucher.php
 
 ```php
 <?php

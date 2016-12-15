@@ -244,7 +244,7 @@ class ModelAccountDownload extends Model {
 	}
 }
 ```
-## view/theme/default/template/download.tpl
+## view/theme/default/template/account/download.tpl
 
 ```php
 <?php echo $header; ?>

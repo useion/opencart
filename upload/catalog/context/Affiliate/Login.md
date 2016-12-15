@@ -215,7 +215,7 @@ class ModelAffiliateActivity extends Model {
 }
 ```
 
-## view/theme/default/template/login.tpl
+## view/theme/default/template/affiliate/login.tpl
 
 ```php
 <?php echo $header; ?>

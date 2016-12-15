@@ -149,7 +149,7 @@ class ModelCatalogInformation extends Model {
 ```
 
 
-## view/theme/deafult/template/information/sitemap.tpl
+## view/theme/default/template/information/sitemap.tpl
 
 ```php
 <?php echo $header; ?>

@@ -457,7 +457,7 @@ class ModelExtensionTotalVoucherTheme extends Model {
 <?php echo $footer; ?>
 ```
 
-## controller/checkout/order.php
+## controller/checkout/confirm.php
 
 ```php
 <?php
