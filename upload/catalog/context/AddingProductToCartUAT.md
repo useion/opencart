@@ -1,6 +1,6 @@
 # Test Adding product to cart UAT
 
-## tests/features/cart.feature
+## test/features/cart.feature
 
 ```feature
 Feature: Shopping cart

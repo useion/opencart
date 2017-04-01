@@ -1,6 +1,6 @@
 # Test Review UT
 
-## tests/unit/review.php
+## test/unit/review.php
 
 ```php
 <?php
